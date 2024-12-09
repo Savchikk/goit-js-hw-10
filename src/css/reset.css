@@ -1,3 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 24px;
+}
+
 h1,
 h2,
 h3,
@@ -12,7 +25,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -21,6 +35,12 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  display: block;
+  margin-bottom: 12px;
+}
+
+a:hover {
+  color: #4e75ff;
 }
 
 button {
